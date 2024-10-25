@@ -1,4 +1,3 @@
-// src/components/FavoriteQuotes.js
 import React from "react";
 
 const FavoriteQuotes = ({ favorites, onRemove }) => (
@@ -12,7 +11,7 @@ const FavoriteQuotes = ({ favorites, onRemove }) => (
           No favorite quotes yet.
         </li>
       ) : (
-        favorites.map((quote) => (
+        favorites.slice(0, 5).map((quote) => (
           <li
             key={quote.id}
             className="flex justify-between bg-gray-700 dark:bg-gray-800 p-4 rounded mb-2"
