@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Quote Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Giới thiệu
 
-## Available Scripts
+**Quote Generator** là một ứng dụng web cho phép người dùng nhận các câu nói truyền cảm hứng và lời khuyên ý nghĩa. Ứng dụng giúp người dùng duy trì một thái độ sống lạc quan và lan tỏa những thông điệp tích cực.
 
-In the project directory, you can run:
+## Giao diện
 
-### `npm start`
+Giao diện của ứng dụng được thiết kế đơn giản và thân thiện với người dùng. Người dùng có thể dễ dàng điều hướng qua các chức năng chính thông qua các thành phần sau:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Thanh điều hướng**: Giúp người dùng truy cập nhanh chóng đến các trang chính của ứng dụng.
+- **Khu vực hiển thị lời khuyên**: Nơi người dùng nhận các câu nói và lời khuyên ngẫu nhiên.
+- **Modal thêm lời khuyên**: Cho phép người dùng nhập và lưu lời khuyên yêu thích.
+- **Chức năng tìm kiếm**: Giúp người dùng dễ dàng tìm kiếm các lời khuyên theo từ khóa.
+- **Chuyển đổi chủ đề**: Cho phép người dùng thay đổi giao diện giữa chế độ sáng và tối.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Chức năng
 
-### `npm test`
+### Các chức năng chính của ứng dụng bao gồm:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Nhận lời khuyên ngẫu nhiên**: Người dùng có thể nhận lời khuyên mới mỗi khi nhấn nút "Nhận lời khuyên".
+2. **Lưu lời khuyên yêu thích**: Người dùng có thể lưu lại các câu nói mà họ yêu thích để dễ dàng truy cập sau này.
+3. **Chia sẻ qua mạng xã hội**: Người dùng có thể chia sẻ các câu nói và lời khuyên trên các nền tảng mạng xã hội.
+4. **Tìm kiếm lời khuyên**: Chức năng tìm kiếm cho phép người dùng tìm kiếm lời khuyên theo từ khóa.
+5. **Chọn chủ đề**: Người dùng có thể chuyển đổi giữa chế độ sáng và tối để trải nghiệm tốt hơn.
