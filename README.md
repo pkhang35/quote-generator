@@ -5,7 +5,7 @@
 **Quote Generator** là một ứng dụng web cho phép người dùng nhận các câu nói truyền cảm hứng và lời khuyên ý nghĩa. Ứng dụng giúp người dùng duy trì một thái độ sống lạc quan và lan tỏa những thông điệp tích cực.
 
 ## Giao diện
-![Giao diện Quote Generator](C:\Users\ASUS\Desktop\ảnh duan\Screenshot 2024-10-26 203457.jpg)
+
 Giao diện của ứng dụng được thiết kế đơn giản và thân thiện với người dùng. Người dùng có thể dễ dàng điều hướng qua các chức năng chính thông qua các thành phần sau:
 
 - **Thanh điều hướng**: Giúp người dùng truy cập nhanh chóng đến các trang chính của ứng dụng.
